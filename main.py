@@ -6,7 +6,6 @@ import sqlite3
 import os
 import re
 import yaml
-from firbasedb import *
 from database import botlists_data, add_bot_to_category
 ############# Load Environment Variables ##############
 load_dotenv()
@@ -59,10 +58,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user = update.effective_user
     username = update.effective_user.username
     add_user_to_database(user.id, user.first_name, user.last_name, user.username)
-    user_ref = db.collection('users').document(str(user_id))
-    user_ref.set({
-        'username': username
-    })
     status = await context.bot.get_chat_member(channelid, user_id)
     status1 = await context.bot.get_chat_member(groupid, user_id)
     # status1 = await context.bot.get_chat_member(groupid, user_id)
