@@ -1,0 +1,44 @@
+# chat.yaml
+welcome_message: |
+  Welcome to the BotList Bot! 🤖
+
+  Use these commands to control this Bot:
+  - /start: Start the bot.
+  - /botlist: Explore a curated list of Telegram bots.
+  - /newbot: Add a new bot to the list.
+  - /help: Get help on how to use the bot.
+
+  To explore bots by category, use /botlist and choose a category.
+
+  Need help? Feel free to contact support or join our community group.
+
+  To cancel an ongoing operation, type 
+  /cancel.
+
+  Happy botting! 🚀
+
+start_message: |
+  🌟 Welcome to BotListsBot! Your gateway to the most famous and useful Telegram bots. 🤖✨
+
+  Explore a world of possibilities with our curated list of bots that cater to your every need. From productivity tools to entertainment and beyond, we've got you covered!
+
+  🚀 Getting Started:
+  1. Type /botlist to discover a curated collection of Telegram bots.
+  2. Use /newbot to add your favorite bot to our growing list.
+  3. Use /help for more information
+
+  🔍 Categories:
+  Navigate through categories to find bots tailored to your interests. Simply use /botlist and choose a category.
+
+  🌈 Why Choose BotListsBot?
+  - Discover bots recommended by our community.
+  - Stay informed about the latest and most popular Telegram bots.
+  - Contribute to our ever-expanding list by adding new bots with /newbot.
+
+  👥 Community Support:
+  Join our community group https://t.me/+ANWsvewoD5swZTA8 to connect with fellow users, share experiences, and get assistance.
+
+  🤖 Have a Bot to Share?
+  Add your favorite bot to our list! Use /newbot and let the community explore its wonders.
+
+  🚀 Embark on a journey of discovery with BotListsbot! Your one-stop destination for the best of Telegram bots. 🌐✨
